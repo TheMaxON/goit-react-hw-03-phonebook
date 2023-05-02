@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { nanoid } from 'nanoid';
-import { InputContainer, Label, InputStyle, Button } from './Input.styled.jsx';
+import { InputContainer, Label, InputStyle, Button } from './Form.styled.jsx';
 
 class Input extends Component {
   state = {

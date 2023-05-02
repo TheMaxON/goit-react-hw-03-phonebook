@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
-import { Label } from '../Input/Input.styled.jsx';
-import { InputStyle } from '../Input/Input.styled.jsx';
+import { Label } from '../Form/Form.styled.jsx';
+import { InputStyle } from '../Form/Form.styled.jsx';
 
 export const Filter = props => {
   const { currentFilter } = props;

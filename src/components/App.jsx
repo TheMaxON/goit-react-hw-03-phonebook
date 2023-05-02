@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Input from './Input/Input';
+import Input from './Form/Form';
 import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from './Filter/Filter';
 import { Section } from './Section/Section';
