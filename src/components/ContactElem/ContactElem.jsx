@@ -6,8 +6,7 @@ import {
   DeleteBtn,
 } from './ContactElem.styled.jsx';
 
-export const ContactElem = props => {
-  const { id, name, number, onRemove } = props;
+export const ContactElem = ({ id, name, number, onRemove }) => {
   return (
     <ContactElemStyle>
       <ContactName>{name}</ContactName>
